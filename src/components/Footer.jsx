@@ -13,7 +13,7 @@ const Footer = ({ darkMode }) => (
         </a>
       </div>
       <div className="copyright">
-        &copy; {new Date().getFullYear()} Jane Doe. All rights reserved.
+        &copy; {new Date().getFullYear()} keshan.. All rights reserved.
       </div>
     </div>
   </footer>
