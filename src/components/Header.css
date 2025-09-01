@@ -83,6 +83,7 @@
   }
   .nav.open {
     transform: translateX(0);
+    color: var(--color-text);
   }
   .menu-toggle {
     display: block;

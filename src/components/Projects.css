@@ -4,6 +4,7 @@
   color: var(--color-text);
   padding: 4rem 1rem 2rem 1rem;
   transition: background 0.3s, color 0.3s;
+  
 }
 .projects h2 {
   text-align: center;
@@ -16,6 +17,7 @@
   gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
+  
 }
 .project-card {
   background: var(--color-bg);
@@ -44,6 +46,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  
 }
 .project-links a {
   color: var(--color-primary);
@@ -60,6 +63,7 @@
 }
 .project-card {
   background: var(--color-bg);
+  color: var(--color-text);
 }
 .project-card:hover {
   background: var(--color-bg-alt);
