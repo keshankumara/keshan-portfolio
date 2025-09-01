@@ -1,0 +1,63 @@
+@import './styles/variables.css';
+
+/* CSS Reset & base styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+body.dark {
+  background: var(--color-bg-dark);
+  color: var(--color-text-dark);
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

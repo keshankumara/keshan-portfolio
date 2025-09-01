@@ -1,0 +1,31 @@
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.3s, color 0.3s;
+}
+
+.app.dark {
+  background: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
