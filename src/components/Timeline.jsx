@@ -2,12 +2,13 @@ import React from 'react';
 import './Timeline.css';
 
 const timelineData = [
+
     {
-        type: 'work',
-        title: 'Volunteer Teacher',
-        org: 'Mehewara',
-        date: '2022 - Present',
-        desc: 'Volunteering as a teacher, supporting educational initiatives at Mehewara.'
+        type: 'edu',
+        title: 'B.Sc. Computer Engineering (Undergraduate)',
+        org: 'State University',
+        date: '2019 - Present',
+        desc: 'Currently pursuing a degree in Computer Engineering.'
     },
     {
         type: 'work',
@@ -17,12 +18,13 @@ const timelineData = [
         desc: 'Worked on digital solutions and supported banking technology initiatives.'
     },
     {
-        type: 'edu',
-        title: 'B.Sc. Computer Engineering (Undergraduate)',
-        org: 'State University',
-        date: '2019 - Present',
-        desc: 'Currently pursuing a degree in Computer Engineering.'
+        type: 'work',
+        title: 'Volunteer Teacher',
+        org: 'Mehewara',
+        date: '2022 - Present',
+        desc: 'Volunteering as a teacher, supporting educational initiatives at Mehewara.'
     }
+    
 ];
 
 const Timeline = ({ darkMode }) => (
