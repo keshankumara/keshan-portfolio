@@ -50,19 +50,12 @@ This website showcases my projects, skills, and experience as a developer, and s
 
 ---
 
-## 🌍 Deployment
-You can deploy this portfolio easily on:
-- GitHub Pages  
-- Vercel  
-- Netlify  
-
----
 
 ## 📬 Contact
 👤 **Keshan Kumara**  
 - GitHub: [@keshankumara](https://github.com/keshankumara)  
-- Email: *(add your email here)*  
-- LinkedIn: *(add your LinkedIn link here)*  
+- Email: *keshankumara11@gmail.com*  
+- LinkedIn: *https://www.linkedin.com/in/keshankumara/*  
 
 ---
 
